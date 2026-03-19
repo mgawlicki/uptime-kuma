@@ -88,6 +88,7 @@ import Webpush from "./Webpush.vue";
 import HaloPSA from "./HaloPSA.vue";
 import Resend from "./Resend.vue";
 import Max from "./Max.vue";
+import SmsApi from "./SmsApi.vue";
 
 /**
  * Manage all notification form.
@@ -184,6 +185,7 @@ const NotificationFormList = {
     Webpush: Webpush,
     HaloPSA: HaloPSA,
     max: Max,
+    SmsApi: SmsApi,
 };
 
 export default NotificationFormList;

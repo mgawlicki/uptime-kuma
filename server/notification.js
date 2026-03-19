@@ -91,6 +91,7 @@ const Whatsapp360messenger = require("./notification-providers/360messenger");
 const Webpush = require("./notification-providers/Webpush");
 const HaloPSA = require("./notification-providers/HaloPSA");
 const Max = require("./notification-providers/max");
+const SmsApi = require("./notification-providers/smsapi");
 
 class Notification {
     providerList = {};
@@ -197,6 +198,7 @@ class Notification {
             new Webpush(),
             new HaloPSA(),
             new Max(),
+            new SmsApi(),
         ];
         for (let item of list) {
             if (!item.name) {

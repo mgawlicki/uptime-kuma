@@ -1514,5 +1514,15 @@
     "teltonikaModem": "Modem Id",
     "teltonikaModemHelptext": "The id of the SMS modem, must be in the format {0}. Refer to https://developers.teltonika-networks.com/reference/ for guidance.",
     "teltonikaPhoneNumber": "Phone number",
-    "teltonikaPhoneNumberHelptext": "The number must be in the international format {0}, {1}. Only one number is allowed."
+    "teltonikaPhoneNumberHelptext": "The number must be in the international format {0}, {1}. Only one number is allowed.",
+    "smsapiToken": "API token",
+    "smsapiRecipientType": "Recipient type",
+    "smsapiPhoneNumber": "Phone Number",
+    "smsapiGroupName": "Group name",
+    "smsapiGroupNameHelptext": "Contact group name from the phonebook to send the message to.",
+    "smsapiRecipientTypeGroup": "Group",
+    "smsapiRecipientTypePhone": "Phone",
+    "smsapiSenderName": "Sender name",
+    "smsapiNormalize": "Normalize SMS message",
+    "smsapiNormalizeHelpText": "When normalize is enabled special chars in message will be replaced with their equivalents (ê-e, ñ-n, ý-y ...)."
 }

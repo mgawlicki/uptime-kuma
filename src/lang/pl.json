@@ -1496,5 +1496,15 @@
     "Collapse All Groups": "Zwiń wszystkie grupy",
     "GlobalpingHostname": "Publicznie dostępny cel pomiaru. Zazwyczaj jest to nazwa hosta lub adres IPv4/IPv6, w zależności od typu pomiaru.",
     "Template ID": "ID szablonu",
-    "halopsa_password_desc": "Hasło do uwierzytelniania za pomocą webhooka Halo PSA"
+    "halopsa_password_desc": "Hasło do uwierzytelniania za pomocą webhooka Halo PSA",
+    "smsapiToken": "Token API",
+    "smsapiRecipientType": "Typ odbiorcy",
+    "smsapiPhoneNumber": "Numer telefonu",
+    "smsapiGroupName": "Nazwa grupy",
+    "smsapiGroupNameHelptext": "Nazwa grupy kontaktów z książki telefonicznej, do której zostanie wysłana wiadomość.",
+    "smsapiRecipientTypeGroup": "Grupa",
+    "smsapiRecipientTypePhone": "Telefon",
+    "smsapiSenderName": "Nazwa nadawcy",
+    "smsapiNormalize": "Normalizuj wiadomość SMS",
+    "smsapiNormalizeHelpText": "Po włączeniu normalizacji znaki specjalne w wiadomości zostaną zastąpione ich odpowiednikami (np. ê → e, ñ → n, ý → y)."
 }
